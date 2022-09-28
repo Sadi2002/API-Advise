@@ -70,3 +70,66 @@ body {
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 60%;
+    padding: 3.5rem;
+
+    &__advise-number {
+      font-size: 1.3rem;
+    }
+
+    &__advise {
+      font-size: 2.5rem;
+      line-height: 4rem;
+    }
+
+    &__btn {
+      width: 6.5rem;
+      height: 6.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 40%;
+    padding: 3.5rem;
+
+    &__advise-number {
+      font-size: 1.3rem;
+    }
+
+    &__advise {
+      font-size: 2.5rem;
+      line-height: 4rem;
+    }
+
+    &__btn {
+      width: 6.5rem;
+      height: 6.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 30%;
+    padding: 3.5rem;
+
+    &__advise-number {
+      font-size: 1.3rem;
+    }
+
+    &__advise {
+      font-size: 2.5rem;
+      line-height: 4rem;
+    }
+
+    &__btn {
+      width: 6.5rem;
+      height: 6.5rem;
+    }
+  }
+}
